@@ -1,0 +1,205 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	font-family:Myriad Pro;
+
+}
+#header
+{
+	height: 50px;
+	background : #444444;
+	font-size : 18px;
+	line-height : 30px;
+	
+}
+.containerHeader
+{
+	margin : 0px  auto;
+	width : 940px;
+
+	
+}
+.logo
+{
+	padding-top : 10px;
+	float : left;
+	padding-right  : 50px;
+	
+}
+
+li{
+	float : left;
+}
+ul li a
+{
+	color: #aaaaaa;
+	padding-right : 20px;
+	padding-left : 20px;
+	text-decoration : none;
+}
+.divider
+{
+	height: 50px;
+   	width: 1px;
+	background : #333333;
+}
+.items 
+{
+	padding-top : 10px;
+}
+.clear {
+	clear : both;
+	
+}
+.pattern
+{
+	height : 485px;
+	background-image:url('../images/pattern.jpg');
+	background-repeat:repeat;
+	
+}
+.containerPattern
+{
+	margin : 0px  auto;
+	width : 940px;
+	height : 485px;
+	
+}
+.textContent
+{
+	width : 470px;
+	float : left;
+	
+	padding-top : 185px;
+	
+}
+.textContent h1
+{
+	font-size : 48px;
+	line-height  : 50px;
+	color : #ffffff;
+
+}
+.textContent h2
+{
+	font-size : 36px;
+	line-height  : 38px;
+	color : #ffffff;
+
+}
+.textContent .buttonView{
+	margin : 40px 20px 40px 0px;
+	height: 50px;  
+	width : 170px;
+	border-radius : 7px;
+	background : #f2f2f2;
+	font-weight : bold;
+	font-size : 20px;
+	line-height  : 22px;
+	font-family:	Myriad Pro;
+
+}
+.textContent .buttonJoin{
+	
+	height: 50px;  
+	width : 170px;
+	border-radius : 7px;
+	background : #ff9900;
+	font-weight : bold;
+	font-size : 20px;
+	line-height  : 22px;
+	font-family:	Myriad Pro;
+	color : #ffffff;
+
+}
+.imageContent
+{
+	float : left;
+	padding-top : 50px;
+	
+
+}
+.content
+{
+	height : 500px;
+	
+	
+}
+.containerContent
+{
+	height : 500px;
+	margin : 0px  auto;
+	width : 940px;
+	
+}
+h3 {
+	padding : 60px 0 ;
+	text-align : center;
+	font-size : 36px;
+	line-height :30px;
+	
+
+}
+.circle{
+   margin-left : 70px;
+    width:140px;
+    height:140px;
+    border-radius:100%;
+    background : #efefef;
+    text-align:center;
+	float : left;
+    
+}
+
+.circle.one-line{line-height:100px;}
+.circle .menuImg
+{
+	padding-top : 45px;
+
+}
+
+
+#footer
+{
+	height : 160px;
+	background : #ececec;
+}
+.containerFooter
+{
+	margin : 0px  auto;
+	width : 940px;
+	height : 160px;
+	
+}
+.footerMenu
+{
+	font-size : 16px;
+	line-height : 30px;
+	padding-top : 30px;
+	
+}
+.footerMenu ul li a
+{
+	color : #ff8000;
+}
+.footerMenu .home   a {
+	color : #555555;
+	}
