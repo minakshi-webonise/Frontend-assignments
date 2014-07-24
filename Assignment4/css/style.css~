@@ -1,0 +1,259 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	font-family:Myriad Pro | Arial;
+
+}
+#header
+{
+	height: 50px;
+	background : #444444;
+	font-size : 18px;
+	line-height : 30px;
+	
+}
+.containerHeader
+{
+	margin : 0px  auto;
+	width : 940px;
+
+	
+}
+.logo
+{
+	margin-top : 10px;
+	float : left;
+	margin-right : 55px;
+	
+}
+
+li{
+	float : left;
+	
+}
+li.clear {
+	list-style : none;
+	float:none;
+	clear : both;
+	
+}
+ul li a
+{
+	color: #aaaaaa;
+	padding : 16px 25px;
+	text-decoration : none;
+}
+.divider
+{
+	height: 50px;
+  	width: 1px;
+	background : #333333;
+}
+
+.items 
+{
+	padding-top : 10px;
+}
+
+.clear {
+	clear : both;
+	
+	
+}
+.pattern
+{
+	height : 485px;
+	background-image:url('../images/pattern.jpg');
+	background-repeat:repeat;
+	
+}
+.containerPattern
+{
+	margin : 0px  auto;
+	width : 940px;
+	height : 485px;
+	
+	
+}
+.textContent
+{
+	width : 480px;
+	float : left;
+	padding-top : 185px;
+	
+	
+}
+.textContent h1
+{
+	font-size : 48px;
+	line-height  : 50px;
+	color : #ffffff;
+
+}
+.textContent h2
+{
+	font-size : 36px;
+	line-height  : 38px;
+	color : #ffffff;
+
+}
+.buttons 
+{
+	width : 400px;
+	height : 50px;
+	margin-top : 50px;
+}
+.textContent .viewGallary{
+	display : block;
+	float : left;
+	height: 40px;  
+	width : 170px;
+	padding-top : 10px;
+	text-align : center;
+	border-radius : 3px;
+	background : #f2f2f2;
+	font-weight : bold;
+	font-size : 20px;
+	line-height  : 22px;
+	font-family:Myriad Pro;
+	margin-right : 20px;
+	text-decoration : none;
+
+}
+.textContent .joinNow{
+	height: 40px;
+	float : left; 
+	display : block; 
+	width : 170px;
+	text-align : center;
+	border-radius : 3px;
+	background : #ff9900;
+	font-weight : bold;
+	font-size : 20px;
+	padding-top : 10px;
+	line-height  : 22px;
+	text-decoration : none;
+	font-family:	Myriad Pro;
+	color : #ffffff;
+
+}
+.imageContent
+{
+	float : left;
+	padding-top : 50px;
+	width : 460px;
+	
+	
+
+}
+
+.content
+{
+	height : 500px;
+	
+	
+}
+.containerContent
+{
+	height : 500px;
+	margin : 0px  auto;
+	width : 940px;
+	
+}
+h3 {
+	padding : 60px 0 ;
+	text-align : center;
+	font-size : 36px;
+	line-height :30px;
+	
+
+}
+
+.circle{
+   margin-left : 70px;
+    width:140px;
+    height:140px;
+    border-radius:100%;
+    background : #efefef;
+    text-align:center;
+	
+    
+}
+
+.text
+{
+	margin-top : 20px;
+	 margin-left : 80px;
+	width : 140px;
+	font-size : 18px;
+	line-height : 22px;
+	color : #444444;
+}
+.circle .menuImg
+{
+	padding-top : 45px;
+
+}
+
+
+#footer
+{
+	height : 160px;
+	background : #ececec;
+}
+.containerFooter
+{
+	margin : 0px  auto;
+	width : 940px;
+	height : 160px;
+	
+}
+.footerMenu
+{
+	font-size : 16px;
+	line-height : 30px;
+	padding-top : 30px;
+	
+}
+.footerMenu ul li a
+{
+	color : #ff8000;
+}
+.footerMenu .home   a {
+	color : #555555;
+	}
+.footerLinks {
+	float : right;
+	height : 50px;
+	
+
+}
+.footerLinks ul li a
+{
+	padding :5px 7px;
+}
+.copyRight 
+{
+	float : left;
+	height : 50px;
+	margin-left : 20px;
+	color : #aaaaaa;
+}
