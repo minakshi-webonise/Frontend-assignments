@@ -1,0 +1,221 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a{
+	text-decoration :none;
+}
+body {
+	font-family:Arial, Helvetica, sans-serif, Georgia;
+
+}
+#header
+{
+	
+}
+.container
+{
+	margin : 0px  auto;
+	width : 940px;
+
+	
+
+}
+#header h1
+{ 	
+	float : left;
+	line-height: 40px;
+	font-size: 22px;
+	padding : 5px;
+	
+}
+.clear { clear : both;}
+.navigation {}
+.navigation  {float : right;margin-top: 10px; }
+.navigation li {float : left;}
+	
+
+.navigation a{
+	color: #51c7d4;
+	
+	font-size : 18px;
+	line-height : 30px;
+	text-align : center;
+	padding : 16px;
+	
+	}
+	.navigation .login
+	{
+		display: block;
+
+width: 65px;
+line-height: 18px;
+font-size: 14px;
+
+text-align: center;
+border-radius: 3px;
+background: #51c7d4;
+color: #ffffff;}
+
+.banner {
+	
+	min-height : 650px;
+
+	background-image:url('../images/banner.png');
+	background-repeat: no repeat;
+
+	background-size: 100%;
+	}
+
+.content {
+	
+
+		
+	}
+.contentLeft {
+		padding-top : 80px;	
+		float : left;
+		width : 720px;
+		
+	}
+	.contentLeft h6, .contentRight h6{
+		font-size: 36px;
+		line-height: 40px;
+		color:#00bbcc;
+		font-weight : bold;		
+		}
+.contentRight h6,		.testimonials h6 {
+	font-size: 30px;
+	}
+.contentMenu {
+
+	margin-top: 30px;	
+	font-size: 15px;
+	line-height: 17px;
+	font-family: Helvitica;
+	}
+.contentMenu li{
+	margin-right:20px;
+	float  : left;
+	list-style :none; }
+.menu 
+{
+	width: 220px;
+	float : left;
+	margin-bottom : 50px;
+
+}
+.menu h4 
+{
+		padding-left :30px;
+		padding-bottom: 15px;
+}
+.menu p {
+				padding-left :30px;
+				font-size: 13px;
+				line-height: 17px;	
+			}
+.image1
+{
+	background :url('../images/icon1.png') no-repeat ;
+}
+.image2
+{
+	background :url('../images/icons2.png') no-repeat ;
+}
+.image3
+{
+	background :url('../images/icons3.png') no-repeat ;
+}
+.image4
+{
+	background :url('../images/icons4.png') no-repeat ;
+}
+.image5
+{
+	background :url('../images/icons5.png') no-repeat ;
+}
+.image6
+{
+	background :url('../images/icons6.png') no-repeat ;
+}
+.image7
+{
+	background :url('../images/icons7.png') no-repeat ;
+}
+.image8
+{
+	background :url('../images/icons8.png') no-repeat ;
+}
+.image9
+{
+	background :url('../images/icons9.png') no-repeat ;
+}
+.contentRight{
+		float :right;
+		width:220px;
+		
+		padding-top : 80px;	
+	 }		
+.contentRight .logoTop{
+
+	
+	padding: 20px 10px;
+	border : 1px solid #d6d6d6;
+	
+	
+	}
+.contentRight .logoBottom{
+	min-height : 80px;
+	
+	
+	}
+	.contentRight .logo {
+			display : block;
+			padding: 10px ;
+			background :url('../images/MLBAcademy.png') no-repeat ;
+				
+		}
+		.logoLeft {
+				width: 110px;
+				border:  1px solid #d6d6d6;
+				float: left;
+				}
+		.usaLogo {
+			display : block;
+	margin: 10px 0px;
+		height: 60px;
+		background :url('../images/USAFootball.png') no-repeat ;
+	
+			}
+			.logoRight {
+				border:  1px solid #d6d6d6;
+				float: right;
+				}
+				
+		.logoRight 	.usaLogo1 {
+			display : block;
+			width : 106px;
+		height: 60px;
+		margin: 10px 0px;
+		background :url('../images/chemistry.png') no-repeat ;
+	}
+	.testimonials {
+		width  : 220px;
+		height : 300px;
+		background: red;
+		margin-top: 50px;		
+		}
