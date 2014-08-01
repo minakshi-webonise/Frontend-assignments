@@ -1,0 +1,258 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a{
+	text-decoration :none;
+}
+body
+ {
+	font-family:Arial, Helvetica, sans-serif, Georgia;
+}
+.clear {
+	float :none;
+	clear : both;	
+	
+	}
+.container
+	{
+		margin : 0  auto;
+		width : 940px;
+	}
+#header {
+	box-shadow: 0 5px 5px #d9d9d9;
+	}
+#header .logo
+{
+	float :left;
+	padding:  20px 0 ;
+	margin-right: 40px;	
+	
+}
+.headerNavigation {
+	float : left;
+	font-size: 16px;
+	line-height: 48px;
+		
+	}
+.headerNavigation li 
+{	
+		float : left;
+		list-style: none;
+}
+.headerNavigation li a
+{
+		display : block;		
+		padding : 26px;
+}	
+.headerNavigation .clear 
+{
+	float : none;
+	padding: 0;
+	clear : both;	
+}
+.bannerImg 
+{
+		font-size: 30px;
+		line-height: 48px;
+		position: relative;
+		left : 0;
+		top : 0;
+}
+.banner .bannerText
+{
+		width : 520px;		
+		position:absolute;
+		left :30px;
+		top : 135px;
+		color: #217543;
+		float: left;
+}
+.bannerButton
+{
+		display :block;
+		font-size: 18px;
+		line-height: 32px;		
+		background:url('../images/buttonSlice.png') repeat;
+		border-radius: 3px;	
+		color : #ffffff;
+}
+.bannerText .bannerButton
+{
+		position:absolute;
+		top : 50px;
+		left : 280px;
+		padding :3px 43px;	
+}
+
+.slider 
+{
+	
+		margin:30px -30px 0 0 ;
+		
+}
+.slider li 
+{
+		
+		width : 445px;
+		border: 1px solid #cccccc;
+		list-style: none;
+		float : left;	
+		margin-right : 30px;	
+		
+}
+.slider .sliderContent 
+{
+		
+		float : left;	
+		width: 260px;
+		font-size: 18px;
+		line-height: 20px;
+		padding: 15px 0 20px 20px;
+}
+.slider .sliderContent h4
+{
+			font-size: 21px;
+			line-height: 15px;
+			font-family: bold;	
+			padding-bottom: 15px;		
+			
+}
+.slider .silderImage
+{
+		
+		float: right;
+	
+		margin : 20px 20px 20px 0;
+}
+.slider .silderImage2 {
+		min-height: 133px;
+		width: 133px;
+		float: right;
+		background:url('../images/slider2.jpg') no-repeat;
+		margin : 20px;
+		
+		}
+.sliderContent .bannerButton 
+{
+		padding :3px 53px;
+		margin-top : 10px;	
+			
+}
+.slider .clear {
+	float: none;
+	padding : 0;
+	margin : 0;
+	border:0;
+	clear : both;	
+	width :auto;
+	height : auto;
+	
+	}
+.contentNavigation {
+		list-style : none;
+		//margin-top: 85px;
+		font-size: 14px;
+		line-height: 22px;
+		//margin-right:-30px;
+		margin : 85px -30px 40px 0;
+	}
+.contentNavigation li {
+		float: left;
+		width : 275px;	
+		
+		margin-right: 30px;
+	}
+.contentNavigation .heading {
+		font-size: 16px;
+		line-height: 18px;
+		padding-bottom: 15px;
+		color : #1d673b;
+	}
+.contentNavigation .contentImg {
+		padding-bottom: 20px;
+			
+	}
+.contentNavigation span a{
+	text-transform:uppercase;
+		font-size: 12px;
+		line-height: 22px;
+		color : #1d673b;
+	
+	}
+	.contentNavigation p {
+		color : #636363;
+		}
+.contentNavigation .clear {
+		width : auto;
+		margin : 0;
+		padding : 0;
+		float : none;
+		clear : both;	
+	
+	}
+	#footer {
+			
+		border-top :2px solid #e3e3e3;	
+		
+		}
+.footerNavigation {
+	margin-top: 40px;
+	float : left;	
+	list-style: none;
+	}
+.footerNavigation li {
+	float: left;	
+	}
+.footerNavigation a {
+	display : block;
+	padding : 10px;
+	color : #1d673b;	
+	
+	}
+.footerNavigation .clear {
+	margin : 0;
+		padding : 0;
+		float : none;
+		clear : both;		
+	
+	}
+	.footerBottom  {
+	margin-top:  20px ;
+	}
+.footerBottom .copy {
+		float : left;	
+	
+	}
+.footerBottom .footerDown {
+		float : left;
+		margin-left: 40px;
+		border-right : none	
+		
+	}
+.footerDown li {
+		
+		float  : left;	
+	
+	}
+.footerDown li a {
+		display: block;
+		padding : 0 15px 0 6px;
+		border-right : 1px solid black;
+		
+		
+	
+	}
